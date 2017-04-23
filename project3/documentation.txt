@@ -1,0 +1,34 @@
+The approach that I took to use heap indirection was actually rather straightforward. The data structures that I used were hash maps and heap-based 
+priority queues. There was a need for two PQs in this project (one for price and one for mileage). Next, we need 2 Hash Maps for each PQ. Two of my 
+hash maps were used to ensure that car entires were indexable (for both price and mileage). The other two hash maps were used for the car indirection. 
+In these two maps (for both price and mileage), the make and model for the car with the lowest price/mileage was stored, which can also be associated with its 
+corresponding price/mileage index in the other two hash maps. 
+
+The runtime throughout this program was rather consistent. O(log n) or logarithmic runtime was consistent here. The only area of this project in which
+runtime efficiency came into question was during the car indirection...this was present in "remove" and "update". The retrieval process and addition 
+of cars was done logarithmically and efficiently, with the average case of O(log n). When the user removed a car that was already present in the hash map,
+an adjustment to the hash map is needed. The same goes for if the user wanted to update a car and it now either had a lower/higher price than that in the 
+hash map for a specific make and model.
+
+Let's say is we have to Honda Civic's. One is worth $9000 and has 100 miles on it. The other is worth $10000 and has 110 miles on it. If we remove the first
+Honda, then the second Honda must be moved into the hash map. If do not remove any, and choose to update the $10000 Honda to $8000, this Honda must now be placed
+into the hash map instead of the $9000 Honda. The same example can be applied to mileage. The runtime becomes linear for these cases -- O(n).
+
+Ensuring that the program is efficient was my #1 priority (no pun intended). My approach to this project was done in essentially the most efficient way possible.
+The only exception may have to be with the update/remove methods, HOWEVER, after long consideration I was unable to find a way around traversing the full heap size.
+Besides these rare cases, I am confident that this approach was one of if not the best way to approach this project.
+
+Runtimes:
+
+- Add Car: O(log n)
+- Update Car: O(log n) --> best & average case..... O(n) --> worst case
+- Remove Car: O(log n) --> best & average case..... O(n) --> worst case
+- ALL Retrievals: O(1)
+
+Memory Requirements:
+
+- 2 PQs (price & mileage)
+- 2 Heap arrays for price/mileage
+- 4 Hash Maps total --> 2 for each priority queue (price/mileage)
+		-- 2 Hash maps for indexing
+		-- 2 Hash maps for indirection
