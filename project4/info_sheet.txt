@@ -1,0 +1,59 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Collin Dreher	
+
+Lecture section: 1501-1245 
+
+Recitation day and time:  Friday (2:00 PM - 2:50 PM)
+
+Assignment #:  Project 4 - Graphs
+
+Program due date:  4/4/17 @ 11:59 PM
+
+Handed in date:  4/3/17 @ 10:00 PM
+
+Source code file name(s):
+
+NetworkAnalysis.java
+Bag.java
+DepthFirstSearch.java
+DijkstraAllPairsSP.java
+DijsktraSP.java
+DirectedEdge.java
+Edge.java
+EdgeWeightedDigraph.java
+EdgeWeightedGraph.java
+FlowEdge.java
+FlowNetwork.java
+FordFulkerson.java
+IndexMinPQ.java
+KruskalMST.java
+MinPQ.java
+Queue.java
+Stack.java
+UF.java
+
+
+
+Other file name(s) (if relevant):
+
+info_sheet.txt
+
+
+
+Does your program run without error?:		YES
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+
+
+
+Additional comments to the grader:
+I took advantage of the book/author's code in order to implement all of these graph algorithms...thus why I am submitting so many source files
