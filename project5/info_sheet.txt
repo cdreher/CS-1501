@@ -1,0 +1,64 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Collin Dreher	
+
+Lecture section: 1501-1245 
+
+Recitation day and time:  Friday (2:00 PM - 2:50 PM)
+
+Assignment #:  Project 5 - RSA
+
+Program due date:  4/21/17 @ 11:59 PM
+
+Handed in date:  4/21/17 @ 7:15 PM
+
+Source code file name(s):
+
+RSAKeyGen.java
+RSASign.java
+MyBigInteger.java
+
+
+
+
+
+
+
+Other file name(s) (if relevant):
+
+info_sheet.txt
+file1.txt
+file1.txt.sig	--new file will be created upon execution--
+pubkey.rsa		--new file will be created upon execution--
+privkey.rsa		--new file will be created upon execution--
+
+
+
+
+
+Does your program run without error?: Yes
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+If for some reason when running "java RSAKeyGen" an error pops up, just re-run the program.
+Problem should fix after a few runs, if you even have to do that 
+
+
+
+
+
+Additional comments to the grader:
+
+
+
+
+
+
+
