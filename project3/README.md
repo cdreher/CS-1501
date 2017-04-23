@@ -30,6 +30,7 @@ This option will prompt the user to enter (one at a time) a make and model and t
 Retrieval operations should not remove the car with minimum price or mileage from the data structure, just print the information about that car. Cars should only be removed via the "remove a specific car from consideration" menu option.
 To ensure efficiency of operations, you must base your data structure around the use of heaps with indirection (in order to make them indexable). Note that operations on either attribute (e.g., retrieve minimum price, retrieve minimum mileage) must have no worse than logarithmic runtime (both for all cars and for a specific make and model). Updates and removals must also had a logarithmic runtime. Take care in selecting your approach to the indirection data structure to account for the types of keys you will need to store and the type and number operations that you will need to perform on them.
 Because this project requires you to make a number of decisions about how to implement its requirements, you will need to write documentation explaining your implementation, and justifying your decisions. Name this file documentation.txt. Be sure to carefully document your approach to ease the effort required to trace through your code for grading. Be sure to include descriptions of the runtime and space requirements of your approach and use them in your justification of why you think your approach is the best way to go.
+
 Submission Guidelines:
 DO NOT upload any IDE package files.
 You must name the primary driver for your program CarTracker.java.
