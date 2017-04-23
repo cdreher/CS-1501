@@ -1,1 +1,1 @@
-# CS1501
+# CS-1501: Algorithm Implementation
