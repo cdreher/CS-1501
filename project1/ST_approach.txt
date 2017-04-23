@@ -1,0 +1,5 @@
+I chose to use another DLB as my symbol table for tranferring all of the generated passwords. I felt that a DLB would be the best approach to storing millions of these passwords.
+I used the same approach as my original DLB, except, instead of ending the word (or password in this case) with a '*' character, I placed a string version of Node at the end, containing the runtime in seconds.
+I felt this was better than using arrays, trees, or some other sort of trie. DLB is flexible in nature, and is not restricted to only having two paths per node, like in BST, DST, RST, etc.
+Seemed as most efficient solution possible with the amount of pure file size we have in all_passwords.txt
+
